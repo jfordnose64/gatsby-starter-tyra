@@ -1,5 +1,5 @@
-Tyra - Feminine Blog Powered by Gatsby
-=====
+# Tyra - Feminine Blog Powered by Gatsby
+
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-green.svg)](https://shields.io/) [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://shields.io/)
 
 Tyra is a Gatsby starter that focuses on legibility and a clean, feminine design with 2010 influences. Technically, the goals for Tyra are having a "plug and play" blog, with great SEO, tooling, and integrations all included.
@@ -27,6 +27,7 @@ siteMetadata: {
   pinterest: "", // Your pinterest profile
   facebook: "", // Your facebook profile
   twitter: "", // Your twitter profile
+  instagram:"",
 }
 ```
 
@@ -35,19 +36,22 @@ This is used for configuring data across the site, improving SEO, and increasing
 Next up, you can begin customizing the images and copy in `content/`. Finally, you can add your own blog posts! Posts are written in Markup, an easy way to create webpages.
 
 ## Installation with `gatsby-cli`
+
 `gatsby new my-site https://github.com/madelyneriksen/gatsby-starter-tyra`
 
 ## Installation with `git clone`
+
 `git clone git@github.com:madelyneriksen/gatsby-starter-tyra.git my-site`
 `cd my-site`
 `yarn install`
 
 ## To develop
+
 `yarn develop`
 
 ## To build
-`yarn build`
 
+`yarn build`
 
 ## Screenshot
 
@@ -60,18 +64,15 @@ Tyra uses markdown for writing blog posts, and follows a simple template for add
 ```markdown
 ---
 
-type: "post"
-title: "My Awesome Post Title"
-author: "My Name"
-category: "My Category"
-date: "2019-01-05"
-slug: "/my-awesome-post"
-postImage: "./img/myimage.jpg"
-metaDescription: "This is my first awesome and cool post!!!"
-
----
-
-You can write your post here using markdown! Link to images in the `img` folder using this syntax:
+type: 'post'
+title: 'My Awesome Post Title'
+author: 'My Name'
+category: 'My Category'
+date: '2019-01-05'
+slug: '/my-awesome-post'
+postImage: './img/myimage.jpg'
+metaDescription: 'This is my first awesome and cool post!!!'
+---You can write your post here using markdown! Link to images in the `img` folder using this syntax:
 
 ![Alt Text](./img/my-image.jpeg)
 ```
@@ -84,6 +85,6 @@ Tyra is licensed under the terms of the MIT License.
 
 ## Thanks and Mentions
 
-* The [GatsbyJS](https://www.gatsbyjs.org/) Team for creating an amazing platform.
-* [Netlify](https://www.netlify.com/) for making static site hosting even easier.
-* [Unsplash](https://unsplash.com/) and the Free Photography Community.
+- The [GatsbyJS](https://www.gatsbyjs.org/) Team for creating an amazing platform.
+- [Netlify](https://www.netlify.com/) for making static site hosting even easier.
+- [Unsplash](https://unsplash.com/) and the Free Photography Community.
